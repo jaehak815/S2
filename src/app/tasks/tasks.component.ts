@@ -33,12 +33,7 @@ onStartAddTask(){
   this.isAddingTask = true;
 }
 
-onCancelAddTask(){
+onCloseAddTask(){
   this.isAddingTask = false;
-}
-
-onAddTask(taskData: NewTaskData){
-
-this.isAddingTask = false;
 }
 }
