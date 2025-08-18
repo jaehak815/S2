@@ -17,4 +17,8 @@ enteredDate = '';
   onCancel(){
 this.cancel.emit();
 }
+
+onSubmit(){
+  
+}
 }
